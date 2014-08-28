@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="P1o-tF-bWT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <scenes>
+        <!--Test View Controller-->
+        <scene sceneID="XN4-Aq-x45">
+            <objects>
+                <viewController id="P1o-tF-bWT" customClass="TestViewController" customModule="TestXibStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vJS-xf-TbI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dKK-ZY-ZPE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="91.5" y="97.5"/>
+        </scene>
+    </scenes>
+</document>
