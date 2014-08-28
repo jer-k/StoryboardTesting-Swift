@@ -8,14 +8,19 @@
 
 import UIKit
 
-class TestViewController: UIViewController {
+//Xcode 6 Beta 6
+//NOTE: Solution 1
+@objc(TestViewController) class TestViewController: UIViewController {
 
     
-    /* Comment this init method in to see that the xib is loaded correctly
+    /* NOTE: Solution 2
     required init(coder aDecoder: NSCoder) {
         super.init(nibName: "TestViewController", bundle: NSBundle.mainBundle())
     }
     */
+    
+    //NOTE: Solution 3
+    //Name the xib module.viewcontroller.xib -> TestXibStoryBoard.TestViewController.xib
     
     override func viewDidLoad() {
         super.viewDidLoad()

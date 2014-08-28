@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>80914FA5-CF49-4187-8D6F-A2AD93B04F27</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestXibStoryBoard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>720D286D147D37F0A84D403241B0FC65A2B722BD</key>
+		<string>github.com:jer-k/StoryboardTesting-Swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestXibStoryBoard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>720D286D147D37F0A84D403241B0FC65A2B722BD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jer-k/StoryboardTesting-Swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>720D286D147D37F0A84D403241B0FC65A2B722BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>720D286D147D37F0A84D403241B0FC65A2B722BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestXibStoryBoard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
