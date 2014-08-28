@@ -1,4 +1,4 @@
-I created this project to show how in Xcode 6 Beta 6 (apparently it actually broke in Beta 5) I wasn't able to load a Xib for a UIViewController contained in a Storyboard.
+I created this project to show how in Xcode 6 Beta 6 (apparently it actually broke in Beta 5) I wasn't able to load a .xib file for a UIViewController contained in a Storyboard.
 
 I asked the question on StackOverflow (http://stackoverflow.com/questions/25538995/cant-load-uiviewcontroller-xib-file-in-storyboard-in-swift) and received a great answer and explanation from user matt.
 
@@ -14,4 +14,6 @@ Name the .xib file MyModule.TestViewController.xib, where MyModule is the name o
 
 Use @objc(TestViewController) in the view controller's class declaration to overcome the name mangling which is what's breaking the mechanism (this is the approach I favor)'
 
-I decided to go with the third option of using @objc and discovered in little caveat. Since the underlying name of the TestViewController is different, don't forget to go back into the storyboard and reset the class name of the UIViewController.
+I decided to go with the third option of using @objc and discovered a little caveat. Since the underlying name of the TestViewController is different, don't forget to go back into the storyboard and reset the class name of the UIViewController in question.
+
+If Xcode 6 and Swift are officially released and the suggested approach to this problem is to namespace the .xib files, I will probably adopt that approach, but for now using @objc (classname) seems easist to implement and subsequently remove.
